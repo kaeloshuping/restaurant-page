@@ -1,16 +1,21 @@
-function loadPage () {
-    const contentBody = document.createElement("div");
+// This class will be responsible for loading the web page content
+class LoadPage {
 
-    const h3 = document.createElement("h3");
-    h3.innerHTML = "Welcome to the Best South African Local Restaurant";
+    // Initialise constructor with a page container to load
+    constructor(pageContainer) {
+        this.container = pageContainer;
+    };
 
-    const image = document.createElement("img");
-    image.src = "./images/th-1912121204.jpeg";
+    // this method loads the current page selected from the tabs 
+    currentPage() {
+        const contentBody = document.createElement("div");
 
-    contentBody.appendChild(h3);
-    contentBody.appendChild(image);
+        contentBody.appendChild(this.container);
 
-    return contentBody;
+        return contentBody;
+    };
+
+
 };
 
-export { loadPage };
+export { LoadPage };

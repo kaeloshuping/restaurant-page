@@ -18,7 +18,7 @@ function homePage() {
     // creates the footer text for the home page body
     const homePageFooter = document.createElement("h4");
     homePageFooter.id = "home-footer";
-    homePageFooter.innerHTML = "Click on our <u>MENU</u> tab for our menu and the <u>ABOUT</u> tab to learn more about us!";
+    homePageFooter.innerHTML = "Click on our MENU tab for our menu and the ABOUT tab to learn more about us!";
 
     // adds all created homepage elements to the home page container
     homePageContentContainer.appendChild(homePageHeader);

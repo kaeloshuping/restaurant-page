@@ -7,12 +7,15 @@ function header() {
     // create home, menu and header tabs with the same class name
     const homeTab = document.createElement("div");
     homeTab.className = "header-tabs";
+    homeTab.id = "home";
 
     const menuTab = document.createElement("div");
     menuTab.className = "header-tabs";
+    menuTab.id = "menu";
 
     const aboutTab = document.createElement("div");
     aboutTab.className = "header-tabs";
+    aboutTab.id = "about";
 
     // add HTML text to tabs
     homeTab.innerHTML = "HOME";

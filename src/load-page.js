@@ -7,13 +7,17 @@ class LoadPage {
     };
 
     // this method loads the current page selected from the tabs 
-    currentPage() {
+    get currentPage() {
         const contentBody = document.createElement("div");
 
         contentBody.appendChild(this.container);
 
         return contentBody;
     };
+
+    set currentPage(pageContainer) {
+        this.container = pageContainer;
+    }
 
 
 };

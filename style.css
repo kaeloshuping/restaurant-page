@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 0.75fr 5fr 0.75fr;
 }
 
 #page-header {
@@ -33,6 +33,7 @@ html, body {
     color: rgb(215, 216, 218);
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 #home-content {
@@ -43,6 +44,38 @@ html, body {
     align-items: center;
     background-color: rgb(206, 206, 150);
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+#home-header {
+    margin: 1rem;
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+#about-content {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(206, 206, 150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#about-header {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1em;
+}
+
+#about-text {
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #page-footer {

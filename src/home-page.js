@@ -1,4 +1,4 @@
-import homeImage from "../dist/images/th-1912121204.jpeg";
+import homeImage from "../dist/images/homepage-imgs/th-1912121204.jpeg";
 
 // This function is responsible for creating the home page
 function homePage() {
